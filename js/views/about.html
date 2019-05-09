@@ -1,0 +1,174 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+#bittable {
+    text-align:center;
+   
+    border-collapse: collapse;
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+     height:300px;
+}
+table {
+
+    height:300px;
+}
+th{
+    color:#00732a;
+    font-family:"Lucida Console", Monaco, monospace;
+    
+}
+th, td {
+   
+   
+    text-align: end;
+}
+table tr td:nth-child(2) {
+    background: #d6d7d8;
+    font-family:"Lucida Console", Monaco, monospace;
+    color:#727272;
+    text-align: end;
+}
+table tr td:nth-child(6) {
+    
+    font-family:"Lucida Console", Monaco, monospace;
+    color:red;
+    text-align: end;
+    font-size: 20px;
+}
+table tr td:nth-child(7) {
+    
+    font-family:"Lucida Console", Monaco, monospace;
+    color:red;
+    text-align: end;
+    font-size: 20px;
+}
+table tr td:nth-child(3) {
+    font-family:"Lucida Console", Monaco, monospace;
+    
+    background:#e5fff1;
+}
+table tr td:nth-child(4) {
+    font-family:"Lucida Console", Monaco, monospace;
+    background:#ffe8e5;
+}
+table tr td:nth-child(5) {
+    font-family:"Lucida Console", Monaco, monospace;
+    
+}
+
+#bitcoin{
+   
+}
+tr:hover {background-color:#f5f5f5;}
+</style>
+<body class="testbody">
+
+    <div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="oj-flex">
+            <div class="oj-flex-item">&nbsp</div>
+            <div class="oj-flex-item">&nbsp</div>
+          </div>
+        <div class="demo-flex-display oj-flex-items-pad">
+          
+               
+           <div id="bittable" > 
+               <oj-collapsible id="collapsiblePage" expanded>
+                   <h1 id="h" slot="header">Bitcoin</h1>
+                       <oj-table  aria-label='Departments Table'
+                                        data='[[btcdataprovider]]'
+                                        columns-default='{"sortable": "enabled"}'
+                                        display='grid'
+                                        columns-default='{"sortable": "disabled"}'
+                                        columns='[{"headerText": "Exchange", 
+                                                   "field": "btcexchange"},
+                                        {"headerText": "Buy Price", 
+                                                   "field": "btcsellPrice"},
+                                                  {"headerText": "Sell Price", 
+                                                   "field": "btcbuyPrice"},
+                                                  {"headerText": "Last Trade Price", 
+                                                   "field": "btclastTradePrice",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"},
+                                                  {"headerText": "Buy", 
+                                                  "field": "btcbuy",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"},
+                                                  {"headerText": "Sell", 
+                                                  "field": "btcsell",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"}]'
+                                                  >
+        </oj-table>
+                   
+</oj-collapsible>
+                </div>
+        
+        
+         </div>
+    </div>
+<h1>&nbsp</h1>
+          
+          
+               
+           <div id="bittable" > 
+               <oj-collapsible id="collapsiblePage" expanded>
+                   <h1 id="h" slot="header">Ripple</h1>
+                       <oj-table  aria-label='Departments Table'
+                                        data='[[xrpdataprovider]]'
+                                        columns-default='{"sortable": "enabled"}'
+                                        display='grid'
+                                        columns-default='{"sortable": "disabled"}'
+                                        columns='[{"headerText": "Exchange", 
+                                                   "field": "xrpexchange"},
+                                        {"headerText": "Buy Price", 
+                                                   "field": "xrpsellPrice"},
+                                                  {"headerText": "Sell Price", 
+                                                   "field": "xrpbuyPrice"},
+                                                  {"headerText": "Last Trade Price", 
+                                                   "field": "xrplastTradePrice",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"},
+                                                  {"headerText": "Buy", 
+                                                  "field": "xrpbuy",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"},
+                                                  {"headerText": "Sell", 
+                                                  "field": "xrpsell",
+                                                   "headerClassName": "oj-sm-only-hide",
+                                                   "className": "oj-sm-only-hide"}]'
+                                                  >
+        </oj-table>
+                   
+</oj-collapsible>
+                </div>
+         
+         
+    
+</body>
+
+

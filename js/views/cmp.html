@@ -1,0 +1,28 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+    #cmptable th{
+        color:black;
+    }
+</style>
+<oj-table id="cmptable" aria-label='Departments Table'
+                                        data='[[btcdataprovider]]'
+                                        display='grid'
+                                        columns-default='{"sortable": "disabled"}'
+                                        columns='[{"headerText": "Name", 
+                                                   "field": "name"},
+                                        {"headerText": "Market Cap", 
+                                                   "field": "market_cap_inr"},
+                                                  {"headerText": "Price(Rupees)", 
+                                                   "field": "price_inr"},
+                                                  {"headerText": "Price(USD)", 
+                                                   "field": "price_usd"},
+                                                  {"headerText": "Available Supply", 
+                                                  "field": "available_supply"},
+                                                  {"headerText": "24hr Change", 
+                                                  "field":"percent_change_24h"}]'
+                                                  >
+        </oj-table>

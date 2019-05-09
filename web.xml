@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <filter>
+        <filter-name>CORS</filter-name>
+        <filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>
+            <init-param>
+                <param-name>cors.supportedMethods</param-name>
+                <param-value>GET, POST, HEAD, PUT, PATCH, DELETE</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+           <filter-name>CORS</filter-name>
+           <url-pattern>/*</url-pattern>
+        </filter-mapping>
+</root>

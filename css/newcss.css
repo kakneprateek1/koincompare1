@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2018, 3:18:51 PM
+    Author     : pkakne
+*/
+
+.image1{
+    content:url("images/bitcoin.png");
+    opacity:0.6;
+    height:250px;
+    padding-right: 20%;
+    
+    float:right;
+   overflow:hidden;
+}
+
+.imag{
+    content:url("images/bitcoin.png");
+    opacity:1; 
+    vertical-align:middle;
+    height:50px;
+}
+
+.telegram{
+    content:url("images/telegram.jpg");
+    opacity:1; 
+    vertical-align:middle;
+    height:50px;
+}
+.ripple{
+    content:url("images/ripple.png");
+    opacity:1; 
+    vertical-align:middle;
+    height:40px;
+}
+.litecoin{
+    content:url("images/litecoin.png");
+    opacity:1; 
+    vertical-align:middle;
+    height:50px;
+}
+
+.ethereum{
+    content:url("images/ethereum.png");
+    opacity:1; 
+    vertical-align:middle;
+    height:50px;
+}
+.bch{
+    content:url("images/bch.png");
+    opacity:1; 
+    vertical-align:middle;
+    height:40px;
+}
+.logo{
+    content:url("images/logo5.png");
+    opacity:0.7;
+    float:left;
+   
+    height: 60px;
+   
+}
+.image2{
+    content:url("images/dash.png");
+    
+    height: 100px;
+}
+
+#header{
+    background-color: #077b99;
+    text:red;
+   
+}
+
+.home1{
+    
+}
+
+#sec1{
+    margin-top:5px;
+}
+#oc{
+   margin-top:px;
+}
+
+h5{ 
+    
+    font-family:"Times New Roman", Times, serif;
+    font-size: 30px;
+    
+}
+
+.home1{
+    margin-top:-8px;
+}
+
+.homebutton{
+    color:red;
+}
+
+
+    
+    .defaultbutton {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #077b99;
+  border: none;
+  color:#EAF5FB;
+  font-family:"Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.defaultbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.defaultbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.defaultbutton:hover span {
+  padding-right: 25px;
+}
+
+.defaultbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#section1{
+    background-color:#52b1c9;
+   
+    height:762px;
+    
+}
+#compsec1{
+    background-color:#52b1c9;
+   
+    height:762px;
+    
+}
+#line{
+    
+    
+}
+
+#Caption{
+    
+    
+}
+
+.button {
+    background-color: #15819b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+#section2{
+    
+    background-color: #f1f3f4;
+    height:520px;
+}
+
+#section2quest{
+    
+    color:black;
+    margin-left:550px;
+}
+
+#wia.h3{
+    margin-left:1000px;
+    color:black;
+}
+
+#answer{
+    color:black;
+}
+
+
+    
+
