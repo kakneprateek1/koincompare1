@@ -4,3 +4,4 @@ This version of coin compare lets you compare prices of different crypto currenc
 	2) All same kind of currencies across different exchanges are grouped in tables to make comparision easy.
 	3) The price shown are live prices which are fetched using the ticker apis provided by the exchanges.
 	4) If you find any price difference between the currencies, just click on the buy button provided which redirects you to the corresponding exchange.
+	
